@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding= "16dp"
+    >
+
+    <EditText
+        android:id="@+id/editNazwaCw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="0dp"
+        android:hint="Nazwa ćwiczenia" />
+
+    <EditText
+        android:id="@+id/editSerieCw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="57dp"
+        android:hint="Ilość serii" />
+
+    <EditText
+        android:id="@+id/editPowtCw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="-1dp"
+        android:hint="Ilosc powtórzeń" />
+
+    <EditText
+        android:id="@+id/editObciazenieCw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="0dp"
+        android:hint="Obciążenie(kg)" />
+
+</RelativeLayout>
